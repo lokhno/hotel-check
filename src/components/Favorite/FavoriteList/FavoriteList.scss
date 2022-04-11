@@ -1,0 +1,31 @@
+.favorite-list {
+    padding-top: 10px;
+    padding-right: 20px;
+    color: #878787;
+    overflow: auto;
+    height: 313px;
+    &::-webkit-scrollbar {
+        width: 2px;
+        background-color: #e7e7e7;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #41522E;
+    }
+    &__favorite-item {
+        margin-bottom: 16px;
+        
+        &:last-child {
+            margin-bottom: 0;
+            border: none;
+        }
+    }
+    &__empty-list{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    
+}

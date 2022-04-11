@@ -1,0 +1,40 @@
+.showcase-item {
+    display: flex;
+    &__icon {
+        margin-right: 24px;
+    }
+    &__columns {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__column {
+        display: flex;
+        height: 64px;
+        flex-direction: column;
+        justify-content: space-between;
+        &:last-child {
+            margin-right: 30px;
+        }
+        &_hotel-name{
+            width: 60%;
+        }
+    }
+    &__title {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 21px;
+    }
+    &__date-info {
+        color: #878787;
+        line-height: 21px;
+    }
+    &__stars {
+        margin-top: 4px;
+    }
+    &__favorite {
+        display: flex;
+        justify-content: end;
+        margin-right: 8px;
+    }
+}

@@ -1,0 +1,30 @@
+.page-auth {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.back {
+    background: url("../../static/img/back.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.back::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.6);
+}

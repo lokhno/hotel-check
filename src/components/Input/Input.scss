@@ -1,0 +1,27 @@
+.input {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        margin-bottom: 7px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    input {
+        border: 1px solid #c9cacc;
+        box-sizing: border-box;
+        border-radius: 4px;
+        width: 296px;
+        height: 50px;
+        font-weight: 300;
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    &_start-date {
+        margin-top: 16px;
+    }
+    &_day-count {
+        margin-top: 20px;
+        margin-bottom: 32px;
+    }
+}

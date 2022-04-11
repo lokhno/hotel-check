@@ -1,0 +1,43 @@
+.field {
+    width: 345px;
+    &_login {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    &__name {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 15px;
+        margin-bottom: 7px;
+    }
+    &__input {
+        width: 313px;
+   
+        border: 1px solid #c9cacc;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 16px;
+    }
+    &_password {
+        margin-bottom: 18px;
+    }
+    &__error-text {
+ 
+        visibility: hidden;
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 7px;
+        min-height: 14px;
+    }
+    &_error {
+        color: #eb1717;
+        .field {
+            &__input {
+                border: 1px solid #eb1717;
+            }
+            &__error-text {
+                visibility: visible;
+            }
+        }
+    }
+}

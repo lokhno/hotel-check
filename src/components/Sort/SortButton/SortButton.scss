@@ -1,0 +1,41 @@
+.sort-item {
+    display: flex;
+    cursor: pointer;
+
+    border: 1px solid #e5e5e5;
+    color: #99a0a3;
+    padding: 4px 0;
+    &_active {
+        color: #41522e;
+        border: 1px solid #41522e;
+    }
+    border-radius: 4px;
+    &__title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 8px;
+    }
+    .position {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 9px;
+        margin-right: 15px;
+        &__up {
+            margin-bottom: 1.5px;
+        }
+        &__arrow {
+            display: flex;
+        }
+        path {
+            fill: #99a0a3;
+        }
+        &_active{
+            path {
+                fill: #41522E;
+            }
+            
+        }
+    }
+}

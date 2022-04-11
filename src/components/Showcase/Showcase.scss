@@ -1,0 +1,56 @@
+.hotel-check {
+    &__showcase {
+        grid-column: 2 / 2;
+        grid-row: 1 / 3;
+    }
+    .showcase {
+        height: 902px;
+        &__container {
+            padding: 0 32px;
+        }
+        &__row {
+            margin-top: 48px;
+            margin-bottom: 26px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__name {
+            display: flex;
+
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+        }
+        &__devider {
+            margin: 0 20px;
+        }
+        &__date {
+            color: #41522e;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            display: flex;
+            align-items: end;
+        }
+        &__carousel {
+            height: 150px;
+            background-color: rgb(188, 188, 255);
+            border-radius: 10px;
+            margin-bottom: 28px;
+        }
+
+        &__favorite {
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 22px;
+            &-count {
+                color: #41522e;
+                font-weight: 500;
+                margin-left: 6px;
+            }
+        }
+    }
+}
+
+
+
