@@ -28,7 +28,7 @@ export const Favorite = () => {
             setSortHotelsFavorite(hotelsSort(ratingFileter, "stars", tmpHotelsFavoriteList));
         }
         if (costFileter !== "") {
-            setSortHotelsFavorite(hotelsSort(costFileter, "stars", tmpHotelsFavoriteList));
+            setSortHotelsFavorite(hotelsSort(costFileter, "priceFrom", tmpHotelsFavoriteList));
         }
         if (ratingFileter === "" && costFileter === "") {
             setSortHotelsFavorite(tmpHotelsFavoriteList);
